@@ -1,74 +1,63 @@
-# Strument dev commits rewritten on 2026-11-17 to strip *.tar.xz from history.
+# Strument dev commits rewritten on 2026-11-17 to strip *.tar.xz from history,
+# from b4dff5c, the commit that added the first archive, to the tip.
 # Archived records name the old hashes (e.g. in Strument's version string).
 # old new subject
-0a671094255cdebeaf82e574be0c8b8d9be80cf7 2b0e340e6a4049285b3db72f279f65a4332923e7 feat: report calendar versions, 2026.10.31-abc1def
-564be2200220891149ca8ed43a0800101fd221f9 da6979fd3ea7b9a4f699aa2f26051a735c85fb18 fix: point run_code's project probes at bash, and judge chained own-file rm without it
-36bbb54fe587c51dfe127c0fe4f053b52a77e593 62a1317d985d343cb6d9419676c2f3ebb05f267a docs: preregister the bash-bullet trial
-4683073420de2a0f1b95c4768365d7832c2f13a5 5ff8f9cb69386db5ce9a302717f0f6a24a60aed1 docs: bash-bullet trial preregistration after the pilot
-24dbc90e1c5fb517cbd7e48f58aa7cbd0be8fc0f ad954577570990cbdfadabdeb35dcbca2fc78be7 docs: bash-bullet trial results
-fbd7a75102c5f29a9a42b5067c4db191c7eebdf0 9d2cbc690e9792cda1f10617279e7de90d075313 docs: preregister the naming-attractors trial
-84533401698397df3510f806856e75551bb145a3 12925f7de267bcb0d2d74be05a314f834ee5aa2b docs: naming trial, split batches per arm and cap tokens
-3e3416b8c2d6694197ffb5288bcc1fa121b5e968 718187e1b50aac247380e2ec3ef6ce96cac232e3 docs: naming-attractors trial results
-adec23662c1aba00c3140e682d1b88dfa0d803f7 2466b5b0a15e01c73fcf310b897cc344e597e955 docs: preregister the concision-block trial
-d211ca9733a27bac56007342b9b19541a509ce00 6d09f215ac35859df6d56b1a55955185906bcb36 docs: concision trial pilot; Sonnet replaces Haiku for the Claude comparison
-f54882c0275d3c062cf6168276060869d146417b e7edac8b4598a7594c4067da7ebb9f3070dda095 docs: concision trial, tighten the parseInt caveat pattern after reading the pilot
-96f8d6c5bece9b2e6de940f52f2c217b81f8ea3b 879300a4deb8060fed62a2684338e2f98562d041 docs: concision trial, preregister a provider-pinned follow-up
-b4dff5c4ff7baca21aa15597fafdfb016d568499 e35962e067a839c725289a415254c628375e77a5 docs: concision trial, main-run scores and session logs
-37e2a7be24927f7b0ba5fac08c957a6c56b38a70 65a1f0f797a9ede7593b925f36b9bbabfc43cebe docs: concision-block results, and pin the provider in the handbook
-4b941d21b1d20ec71846136b3752da521a554384 1d3c77aa77c7953a876ff2c5a443d144ead69a35 docs: add a trial fork of Featherweight with a headless turn
-2c1ab009b264d79ca8537620b6ff5b7ee963c2fd 8066af59191a8eef42cd7a6f02ed0bdad091408c docs: preregister the Featherweight-vs-Strument trial
-db5d9010ab1069b1e8597245f1efdab037c19a25 b57f7102fdef41e9b8e0586285ad2588e7a93caf docs: Featherweight trial pilots; fix tasks read as floor and side effects
-0179e2747a1f56473fa1e9cfd584c57759a62ac8 3ec58e05260b027e6d1226c4bae942f85cb04ddc docs: Featherweight-vs-Strument results
-9d9f16fb6c939d9f9291fbaed2f5d17c5a408915 b5f31ee5df3032775780cb53af2baff0a958f65f refactor: remove four experiment switches
-89b9012ba5a959920df2bfdd1b92640ab7fa4172 f7c7d67008404ebc9ff331597af04aa757140abb chore: drop the pinned aider reference clone
-1179d06e9decad3430cf850fe3bd54aa7b07e970 a016848b17a2f0c566dc837919539c4d5c8d1a7d refactor: remove /ask, /code and edit_format
-c0d534551f4442ce010f44bff2fd90b4ade8ba0a 0a00ad09e880e80b914b1de6c075986d63944e09 style: sort readline's imports
-d60a37015ced2a0c577104feeaf9267ae27f77cb 7707a207c794f03256eb99b4fb765d3dbf26ccea refactor!: the model commits; a turn no longer ends in a commit
-a28c74935c96a33eeebcf680d59e001fee393e70 b6678d02c3244ff6d7e2ec8c7970cd0e45f80165 refactor!: remove summary compaction, session notes and the side model
-ec7626bca6b26a4c754f7330e982bbab71ab66ca eabeb555b3b9dae44661ae756593a424c2a900ea refactor!: remove pinned files and /read-only
-17907407402b0564888f2817277fe06e40de35bc 7b27f0ae90ed5534cf66b13a11eebbe10c0a718a refactor!: flatten the system prompt and remove the template engine
-67bc0389169c43614e6fafb81396e3691f0b1f5d d08bc008c859f82ef48481405768162b73075b31 feat: describe the commit tool without steering when to commit
-89b6ee5e57b4fc78116c606f9a9ac3945f6b02f5 bc1eceb55b1f8c371490d3b7429fd9e0208ea358 docs: survey the panel on commits
-fea680079da8e6177a669a40759b415cfb668ff6 6a6c0f051c484d2ca90f1a4d9bc98fdb4121bbe4 feat: bridge every tool into run_code, with a refusal that cannot be forged
-8ef54b028ac12babc587cc962cb1defa5de38525 37d9515899a6eab82a739144443572bc34609497 fix: name what the project ignores in ls and glob
-f92e78f29e8d0efb9af5ac44bb2d99f87edf45b5 6a05eb4300096e61f1405a204549aee36795490c feat: give strument tool run_code the session's tools
-c9e398b2663e4de0b03f094cde9280f87c30fb79 269fb34aa204c9ba8efb8d85f0afaf3e5ee8266c feat: let read open files the project ignores
-2e554145bd3b0905a557511137ca7d68585e1d90 ffbc3f9d562123e3fd37af4743ff83887993e59b fix: say an unattended decline lasts until Strument is started again
-20b9a5756f103131a123315ed379f680892b851c 1d77bfa02cdc336b44e88d24e9d55ec3ef2d995e feat: let edits to ignored files land, with a note
-8e68745f5192d84a7289f658413f04c780af2053 4ee25f372b8895bc9cc2c51829ceadec0514b61e docs: rewrite sessions.md as the current design
-8f12dd6e3c396f8971d16ae929b660acfb0251e4 1540a614bb807a888725d7eb2efa0a23c545acb2 feat: grep a named ignored path, and say what grep and glob skipped
-4e74877a18db24de5a5eff478000625c74c977f2 e532616ac4dde800989e820aabfe49c7a4192695 docs: preregister the pared-down trial
-e01dca98ac13e5c6a2e0a64a58213820dffac935 67d11ebb938762f5e6edcfdfe28a70c25dea8d61 docs: report the pared-down trial
-f9b1e905d08918ab2776e0b7edca6da02e06cd70 525dc2ac126e8a7ed00afd9be304c8d2789a5cb1 docs: correct the pared-down trial's count of unanswered sessions
-8882e6aa3f01e8b644fbddaf275949c2d46e33a7 59b47ef4f9a44655733e167f005a4833ae6ff5c0 build(deps): upgrade all
-62649526e70c77706ba769bfd3b3772523903729 7fbbd811f67c83c00814bccdb870359d090ef7a8 feat: ask for the source fix when an ignored generated file is edited
-7a721e64774df1dcbda8aeaadbc0c444f811c0f4 3a371011b3fa22200d6b6894fcd26ca72d588362 docs: report the ignored-edit note follow-up
-58bdcf498c55fda410371e462dfa9ea531805e99 fc6e0414d679e96f5f9f9ed87e47e3514cb2320b Merge remote-tracking branch 'origin/dev' into dev
-1eb73a5a177ba60b5e67f4731f507c12edf6e37c 6c66166bd9f0ae0f97ea81cc72ad26d10473130a build: replace go-multihash with a small shim
-6b8e36add37a43ec8da63e2e4b3ed2baf34386d6 82f16bf887f6bb4833f409e2cb386cdaa19dd2b5 fix(history): name the union and session actions in the adopt plan
-a4a5176aaaf65ab3f43e0bc6227c921d677070e1 ee085b3809b8ad15d31f36c308d1d47e2054bcc5 fix(coder): stop advising /drop and /notes, which no longer exist
-30e8f6637f1bcfce75ec19c4cccadd155067e9b3 b5acfc87fec22b4a7178fc48359d1552caed69fa docs: trim aider-divergence and stale-feature comments
-c59f80630ca6007467c82a964851b6d614e0b510 a4e63732f75c8f6b040eef2fe51979c61bba898f feat: let the model consult another model; drop /consult
-cf8581f836badfb00be0c758c5d5746c9606b90d a25c8802bc9f430fc217f1a2b572654f791efc8b docs(experiments): preregister the consult judge check
-c5ec76f19cd5b3656b553d164198f5483296771f 3505f409d2ae0b7ef8870c87fa651ea1eabfe7b7 fix(coder): retry a response the provider ended with an error
-2b97b1a0c8875950983b86ea8d3476d6457f17b4 5722fb0113249b9f663c12b0c85a17804d76f3af docs(experiments): report the consult judge check
-62e27e09a3d41f96752ffc2fb92389b523600283 697e978aeade98b48a33a704a57a34597674b107 docs(experiments): preregister two consult follow-ups
-045b33f6eee2d6f3217f6e7058db3403f54e4621 c70fd60ac443385439698786ed2a592cb608ecef docs(experiments): report the consult follow-ups
-4bebf90470164bc228afaf4fd5e7322a8b7bd704 706e4e421721c0a9102bb8758156fec0715c2fc2 docs(experiments): preregister the Sol follow-up
-45f0f00e80fdf5ba63ce7e4d452e403884e34f86 1f4f3eaadc9cbed212c203c710ed3fcd3384790f docs(experiments): report the Sol follow-up
-ec6af50cbb399c1918b9622eeeb35bb1478c5111 b3e40f431c7e5892070cf8dfe0c1cf435d194e2e docs(experiments): preregister the long-document follow-up
-45f7b65ec3e3a59ed2f4b4c24f49c31133b5ae90 a9362d2590439cd57e19496be892908e0f10662f docs: report the consult long-document follow-up
-04e4d0262f7e0bc845ff3833aef2215a3be22573 4b6292a779dded772c03f5fec7993b6f5b7c6293 docs: preregister the consult judge rerun; fix cut-off pages
-54943c7261db533207b2592d40f9cd16d366ed50 a4d40c1310f575a3018da389ade391e48d657c35 docs: report the consult judge rerun
-cb29fa18e82eda81325c0f922c14c2e963d94423 49bee4df415801fc066d871ece03f255df301f8d test: add the consult trial's layer-3 runner and scorer
-e2a28607be5454a2bd5fff667c547aa519035285 6fc28d8309fcbbfd5cb6f508af7c70a177634b5d fix: stop a turn only on an exact tool-call repeat
-5603cfb2418c3c8faa8fc9fee500d0ff34efbbd6 36bafce072329393e12f13f1a9b1209691e59cac docs: preregister the consult trial's layer 3
-21314b4073b83151f43656033bf5c28a013968d3 6a4e17a94adc8d623a6218ad3f33c972282a564d docs: report the consult trial's layer 3
-139c9c96ed97c4c678da99265a8de25e5844fb5a 6750767fa08693721654ab1ed41e8ac846564b93 fix: ask consult callers to name files and check the answer
-7aa7b604d8ca7263e093c7a90300dbf5febdd312 ef1a0fd3b4a807f8038a51a663f426dece319f34 docs: preregister the consult description recheck
-f4b33d3822aef1b86e011c7cc18893d68b24bdb2 7e9468a5f694dfd20cd099acfda865455f2cad6a docs: report the consult description recheck; preregister the trial
-8b8f6754f0a769b345c0bd0fbada1286af68f9c3 9dc5a8f8f121ce9e5bdb1f47372e7d05b394bae1 fix: retry a stream cut off before it finished
-1badf41d6bd92b24fc10854fc35bb0f1e39a6a5f a46dc1842fcfee86370fa0ffb52e8f351fa4f19d test: add layer 4's session scorer for the consult trial
-12444461737cd82668ee04ef1d985dc399cef98b aee27cf35cb26df8800ac6df5594f283217e48e3 docs: report the consult trial's layer 4 results
-c4ba015900114a7e0d47617318301fd316b3b50f a4931204ac144ab3ffec1c07772501a87a21f1af docs: measure how much of Terra's draft survives in layer 4
-d908f322920d290a9c19b7ca932507d36f776ef1 032ef9b28b4c15b02774e2b6e56826b4a3d4069f docs: keep experiment records in dbohdan/experimental-data
+b4dff5c4ff7baca21aa15597fafdfb016d568499 9b90d26bc0927ae4896fc8342044b6a09abe36a7 docs: concision trial, main-run scores and session logs
+37e2a7be24927f7b0ba5fac08c957a6c56b38a70 44ae6088c88ddd5ffc8641ab2a1313e5b3dd9b57 docs: concision-block results, and pin the provider in the handbook
+4b941d21b1d20ec71846136b3752da521a554384 478ae420fb7b7ea5fff37d543785a5d0de78a7ae docs: add a trial fork of Featherweight with a headless turn
+2c1ab009b264d79ca8537620b6ff5b7ee963c2fd 5a3c7fa053d392a3d110263f0781807d70d05a67 docs: preregister the Featherweight-vs-Strument trial
+db5d9010ab1069b1e8597245f1efdab037c19a25 6e5fb7bf2607edd11bce635b4064d4328c9bc54b docs: Featherweight trial pilots; fix tasks read as floor and side effects
+0179e2747a1f56473fa1e9cfd584c57759a62ac8 b20df917a2c4af0b9cfcca46ce74e988486a6f7d docs: Featherweight-vs-Strument results
+9d9f16fb6c939d9f9291fbaed2f5d17c5a408915 af45bd5b28ffee6d373d53c824ea65e1bb2b47a8 refactor: remove four experiment switches
+89b9012ba5a959920df2bfdd1b92640ab7fa4172 c61207eeaaafa208791f99da3294e358564992fc chore: drop the pinned aider reference clone
+1179d06e9decad3430cf850fe3bd54aa7b07e970 e78942454be7aeec9e2c224c1d2583b62322e32e refactor: remove /ask, /code and edit_format
+c0d534551f4442ce010f44bff2fd90b4ade8ba0a 589241870efb74445dddc394352792695cc280e2 style: sort readline's imports
+d60a37015ced2a0c577104feeaf9267ae27f77cb 004dba2d12996e96c6856b2948ce9e35053c1a04 refactor!: the model commits; a turn no longer ends in a commit
+a28c74935c96a33eeebcf680d59e001fee393e70 5e82ea17604db1acd1cb154368df255cf1082c62 refactor!: remove summary compaction, session notes and the side model
+ec7626bca6b26a4c754f7330e982bbab71ab66ca 320add684ad28ab952433b860a4431dce5fd54d0 refactor!: remove pinned files and /read-only
+17907407402b0564888f2817277fe06e40de35bc d55c7c525c3ca2d75b3ed0c0b01e91b85d442d1f refactor!: flatten the system prompt and remove the template engine
+67bc0389169c43614e6fafb81396e3691f0b1f5d 1dd0337e8e97de2a0864f73d7434dda96a8ff67f feat: describe the commit tool without steering when to commit
+89b6ee5e57b4fc78116c606f9a9ac3945f6b02f5 706cb7c1d5251c68b08924bb29a84fc3c2836429 docs: survey the panel on commits
+fea680079da8e6177a669a40759b415cfb668ff6 cea2e27372bdc212bcacb7f335259bb6eb5dbcdc feat: bridge every tool into run_code, with a refusal that cannot be forged
+8ef54b028ac12babc587cc962cb1defa5de38525 2c5040caa4c7170ff64799988d67df6b14876c74 fix: name what the project ignores in ls and glob
+f92e78f29e8d0efb9af5ac44bb2d99f87edf45b5 862a65c84cf04dfbcd5e042ff2628bcb0456df39 feat: give strument tool run_code the session's tools
+c9e398b2663e4de0b03f094cde9280f87c30fb79 2a244d44bc111289d257e3ce5393a608f7a15b76 feat: let read open files the project ignores
+2e554145bd3b0905a557511137ca7d68585e1d90 8de1ce94f55bda1311683d8a82852d428c9595dd fix: say an unattended decline lasts until Strument is started again
+20b9a5756f103131a123315ed379f680892b851c 28c66bfff032bfe30519adc86f89017ec73ce522 feat: let edits to ignored files land, with a note
+8e68745f5192d84a7289f658413f04c780af2053 3db3d782ca437e29d8209da6761a009c3fa8c113 docs: rewrite sessions.md as the current design
+8f12dd6e3c396f8971d16ae929b660acfb0251e4 72290cef82fd781b41ec04a0df9629678b747a44 feat: grep a named ignored path, and say what grep and glob skipped
+4e74877a18db24de5a5eff478000625c74c977f2 6a9330b77c144815136c29ea99f55e78643bb9a6 docs: preregister the pared-down trial
+e01dca98ac13e5c6a2e0a64a58213820dffac935 e739888517fd8eda8910ddbb3da353c8c5c183e5 docs: report the pared-down trial
+f9b1e905d08918ab2776e0b7edca6da02e06cd70 0917d757becca7132c000321f7301883b4427fe4 docs: correct the pared-down trial's count of unanswered sessions
+8882e6aa3f01e8b644fbddaf275949c2d46e33a7 73a0098e4f9764d85c72e5db14ca86ef2cff9fb3 build(deps): upgrade all
+62649526e70c77706ba769bfd3b3772523903729 7e042134d6b725f8af2f4da19a3198ebfc568e82 feat: ask for the source fix when an ignored generated file is edited
+7a721e64774df1dcbda8aeaadbc0c444f811c0f4 049f7c8c095df1af555a067a8eb08c6e31782975 docs: report the ignored-edit note follow-up
+58bdcf498c55fda410371e462dfa9ea531805e99 9fd494b2cd0c4ea18d8eb19bd2a44e48dfa0055d Merge remote-tracking branch 'origin/dev' into dev
+1eb73a5a177ba60b5e67f4731f507c12edf6e37c e8c45ca12eb366de43d8f7e27beaa33f02e18294 build: replace go-multihash with a small shim
+6b8e36add37a43ec8da63e2e4b3ed2baf34386d6 5b49e0bce2fa83a879003abd7f0933c63685201e fix(history): name the union and session actions in the adopt plan
+a4a5176aaaf65ab3f43e0bc6227c921d677070e1 1ef963d9275fef0913a50156e1916719c541793c fix(coder): stop advising /drop and /notes, which no longer exist
+30e8f6637f1bcfce75ec19c4cccadd155067e9b3 11f6f3b41a13306ba6ce52acd528b8af6e537992 docs: trim aider-divergence and stale-feature comments
+c59f80630ca6007467c82a964851b6d614e0b510 1148ee0c1e4bf8b3e717536d5614c737533f9102 feat: let the model consult another model; drop /consult
+cf8581f836badfb00be0c758c5d5746c9606b90d da08f9cb92cf0e91e68afe4acb1e5b4cb3a664e0 docs(experiments): preregister the consult judge check
+c5ec76f19cd5b3656b553d164198f5483296771f 40ba778768f49a15cbe97cda82379c42d759ba52 fix(coder): retry a response the provider ended with an error
+2b97b1a0c8875950983b86ea8d3476d6457f17b4 acf3927930db379d24831a14226d1089d1252349 docs(experiments): report the consult judge check
+62e27e09a3d41f96752ffc2fb92389b523600283 a136dd33aea0bb01c21c99837469a8c3383e4a07 docs(experiments): preregister two consult follow-ups
+045b33f6eee2d6f3217f6e7058db3403f54e4621 cc6f3f6fa983fdd286e1e6d2bc0067dfad80c194 docs(experiments): report the consult follow-ups
+4bebf90470164bc228afaf4fd5e7322a8b7bd704 b4d1db20c07697f88984983d1a2cb059bbd73ce4 docs(experiments): preregister the Sol follow-up
+45f0f00e80fdf5ba63ce7e4d452e403884e34f86 ac17362b474da1dd69be2d529a2c935eed5bc895 docs(experiments): report the Sol follow-up
+ec6af50cbb399c1918b9622eeeb35bb1478c5111 0a10afd4bbe1343d64b790a79fb930d63223a1a9 docs(experiments): preregister the long-document follow-up
+45f7b65ec3e3a59ed2f4b4c24f49c31133b5ae90 74ad225defc6c4b5ad74d6e017767d6be4fdd41f docs: report the consult long-document follow-up
+04e4d0262f7e0bc845ff3833aef2215a3be22573 88cca198f90cb3d64b0e953543dfcd64e804f74f docs: preregister the consult judge rerun; fix cut-off pages
+54943c7261db533207b2592d40f9cd16d366ed50 06e53b177a36ea7a352c31bd9d48479a48c7582e docs: report the consult judge rerun
+cb29fa18e82eda81325c0f922c14c2e963d94423 1947f6b11d394c44078d5fb5586477092a3f90fb test: add the consult trial's layer-3 runner and scorer
+e2a28607be5454a2bd5fff667c547aa519035285 8f2bfdc6182d407b3cf800419bd09eb4c26f145b fix: stop a turn only on an exact tool-call repeat
+5603cfb2418c3c8faa8fc9fee500d0ff34efbbd6 6bf5987097e12ea1c1711e17aa4de513fc88630d docs: preregister the consult trial's layer 3
+21314b4073b83151f43656033bf5c28a013968d3 ca873b2b01d6dc0e0f8c28dc7860fd5b8f6c559b docs: report the consult trial's layer 3
+139c9c96ed97c4c678da99265a8de25e5844fb5a 26ea3baeb63105e709770474eb51e821202b503d fix: ask consult callers to name files and check the answer
+7aa7b604d8ca7263e093c7a90300dbf5febdd312 6c929588429cd9200d780af6c5057bcded1173ca docs: preregister the consult description recheck
+f4b33d3822aef1b86e011c7cc18893d68b24bdb2 36d16cfb8e112b98e3f6ad54c541f054e20fbb6f docs: report the consult description recheck; preregister the trial
+8b8f6754f0a769b345c0bd0fbada1286af68f9c3 b5ac4cac99cb7883ab2d0e169cdb612f42a1bbc7 fix: retry a stream cut off before it finished
+1badf41d6bd92b24fc10854fc35bb0f1e39a6a5f e33393e86a7cf368727cf81c8a3fece29692aaeb test: add layer 4's session scorer for the consult trial
+12444461737cd82668ee04ef1d985dc399cef98b 9ad7e04d5d7984b4f232fc2ecf7df7b0e6fda378 docs: report the consult trial's layer 4 results
+c4ba015900114a7e0d47617318301fd316b3b50f f25c904109ba85d806d8aa111e9c31aebe55bd34 docs: measure how much of Terra's draft survives in layer 4
+d908f322920d290a9c19b7ca932507d36f776ef1 9e9aa6a6857b979b1fe815a5e11a7819577d5998 docs: keep experiment records in dbohdan/experimental-data
