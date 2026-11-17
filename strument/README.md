@@ -18,3 +18,9 @@ files.
 ```sh
 mkdir /tmp/rec && tar -xJf strument/2026-11-consult/trial-runs.tar.xz -C /tmp/rec
 ```
+
+The records name Strument commits as they were when the records were made.
+Strument's `dev` branch was later rewritten to strip these archives from its
+history, which changed the hashes of 71 commits;
+[`rewritten-commits.txt`](rewritten-commits.txt) maps each old hash to its
+new one.
